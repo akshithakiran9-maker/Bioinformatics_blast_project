@@ -2,7 +2,7 @@
 from Bio.Blast import NCBIXML
 with open("blast_result.xml")as b:
         blast_record=NCBIXML.read(b)
-
+#alignment for fisrt 5 top hits
 for alignment in blast_record.alignments[:5]:
                 for hsp in alignment.hsps:
                         print("title : ",alignment.title)
@@ -39,4 +39,5 @@ for alignment in blast_record.alignments[:5]:
 # E value :  0.0
 # identities :  621
 # 99.2012779552715
+
 
