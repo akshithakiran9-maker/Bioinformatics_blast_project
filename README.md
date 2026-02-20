@@ -5,28 +5,42 @@ Title:
 Objective:
 To predict the biological function of an unknown protein (Accession:Q9Y3Z3) by analyzing sequence similarity, BLAST hits, and functional annotation.
 
-Research Question:
+Research Question
+
 When an unknown biological sequence is taken, how can computational tools be used 
 to predict its similarity with other sequences and infer its potential biological function?
   
 Tools used:
+
 1.UniProt Database
+
  To retrieve the Hypothetical proetin and
  To retrieve functional annotation for top hits and high-identity homologs.
+ 
 2.FASTA Sequence Files
+
 Input file: unknown_protein.fasta containing your unknown protein sequence (Q9Y3Z3).
+
 3.Biopython (Python library)
+
 To parse BLAST XML results.
-4.NCBI BLAST 
+
+4.NCBI BLAST
+
 To perform sequence similarity search and find homologous proteins.
+
 5.Python 3.11
+
 Used to run scripts for parsing BLAST results, filtering hits, and summarizing top hits.
 Output downloaded in XML format for parsing.
+
 6.VS Code 
+
 For writing Python scripts, organizing folders, and documenting results.
 
 
 Pipeline / Workflow:
+
 Single continuous Pipeline
 
 1. Sequence Retrieval  
@@ -38,6 +52,7 @@ Single continuous Pipeline
    
 
 Methodology:
+
 1.Sequence Retrieval
 The unknow protein sequence(Q9Y3Z3)from human Immunodeficiency virus (hiv),
  was retrived from UniPort databasein fasta formate.
