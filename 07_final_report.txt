@@ -3,8 +3,7 @@ Project Title:
  In-silico Identification and Functional Characterization of a unknown Protein Using Sequence Analysis and Homology-Based Annotation.
 
 Objective:
-To predict the biological function of an unknown protein (Accession:Q9Y3Z3) from Human Immunodeficiency Virus (HIV) by
- analyzing sequence similarity, BLAST hits, and functional annotation.
+To predict the biological function of an unknown protein (Accession:Q9Y3Z3)  by analyzing sequence similarity, BLAST hits, and functional annotation.
 
 Research Question:
 When an unknown biological sequence is taken, how can computational tools be used 
@@ -96,7 +95,7 @@ Top Hit Accession: NP_001350662
  Identities : 582
  Identity% :100.0
 
- functional Annotation:
+functional Annotation:
 SAMHD1 is a deoxynucloeside triphosphate triphosphohydrolase involved in regulating 
 intracellular dNTP levels and innate immune response.
 It restricts viral relication during the early stages of infection.
@@ -109,9 +108,8 @@ Notes:
 -Additinals hits with > 90% identitywew checked for conformation.
 -functional Annotationis based on reviwed UniPort entry.
 
-Other High-identity
-Accession             Identity%              E-value
-NP_056289.2           99.84025559105432        0.0
+Accession              Identity%              E-value
+NP_056289.2           99.84025559105432        0.0 
 AAF32407.1            99.52076677316293        0.0
 AAH36450.1            99.52076677316293        0.0
 
@@ -141,3 +139,4 @@ similar to SAMHD1.
  NCBI BLAST: https://blast.ncbi.nlm.nih.gov/Blast.cgi
   Top Hit UniProt entry: Q9Y3Z3 — SAMHD1 (reviewed entry)  
      https://www.uniprot.org/uniprot/Q9Y3Z3    
+
