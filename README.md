@@ -123,14 +123,14 @@ Notes:
 -Additinals hits with > 90% identitywew checked for conformation.
 -functional Annotationis based on reviwed UniPort entry.
 
-Accession               Identity%              E-value
+Accession                                  Identity%                                E-value
 
-NP_056289.2           99.84025559105432        0.0 
+NP_056289.2                               99.84025559105432                         0.0 
 
-AAF32407.1            99.52076677316293        0.0
+AAF32407.1                                 99.52076677316293                        0.0
 
-AAH36450.1            99.52076677316293        0.0
-
+AAH36450.1                                99.52076677316293                         0.0
+       
 Biological Interpretation:
 
 Based on the BLAST analysis and functional annotation of the top hit (NP_001350662, SAMHD1),
