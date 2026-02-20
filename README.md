@@ -108,6 +108,45 @@ Top Hit Accession: NP_001350662
  
  Identity% :100.0
  
+ functional Annotation:
+ 
+SAMHD1 is a deoxynucloeside triphosphate triphosphohydrolase involved in regulating 
+intracellular dNTP levels and innate immune response.
+It restricts viral relication during the early stages of infection.
+Does by lowering intracellular dNTPlevels,thereby inhinbiting viral dna synthesis.
+This antivairal activity has been observed in dendritic cells,macgrophages,and 
+certain melanoma cells.
+
+Notes:
+
+-Top hit NP_001350662 selected based on 100% identity over 582/626 residues.
+-Additinals hits with > 90% identitywew checked for conformation.
+-functional Annotationis based on reviwed UniPort entry.
+
+Accession               Identity%              E-value
+
+NP_056289.2           99.84025559105432        0.0 
+
+AAF32407.1            99.52076677316293        0.0
+
+AAH36450.1            99.52076677316293        0.0
+
+Biological Interpretation:
+
+Based on the BLAST analysis and functional annotation of the top hit (NP_001350662, SAMHD1),
+the unknown protein sequence (Q9Y3Z3) is predicted to:
+1. Regulate intracellular dNTP (deoxyribonucleotide triphosphate) levels.  
+2. Restrict viral replication by lowering dNTP concentrations, thereby inhibiting viral DNA synthesis.  
+3. Act similarly in dendritic cells and melanoma cells, consistent with the activity of SAMHD1.  
+4. Share functional roles with other high-identity homologs (≥90% identity), 
+supporting its role in early-stage viral restriction.
+
 This predicted function suggests that the unknown protein(Q9Y3Z3) likely plays a critical role in controlling viral replication and regulating intracellular dNTP levels, similar to the activity observed in SAMHD1 and related proteins.
 
+Conclusion :
 
+The unknow protein sequence(Q9Y3Z3) was analysed using computationaltools and Homology-based functional annotation.
+Blast analysis identified NP_001350662 as top hit with 100% identity and 0.0 E-value.Based on these analysis the unknow
+protein is predicted to regulate intracellular dNTP levels and restrict viral replication by inhibiting viral dna synthesis,
+similar to SAMHD1.
+     
