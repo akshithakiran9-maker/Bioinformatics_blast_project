@@ -1,0 +1,38 @@
+import ssl
+ssl._create_default_https_context=ssl._create_unverified_context
+
+#from Bio.Blast import NCBIWWW
+##print("blast result is successful ")
+#protein_seq=NCBIWWW.qblast(
+    #program="blastp",
+    #database="nr",
+    #sequence="MQRADSEQPSKRPRCDDSPRTPSNTPSAEADWSPGLELHPDYKTWGPEQVCSFLRRGGFEEPVLLKNIRENEITGALLPCLDESRFENLGVSSLGERKKLLSYIQRLVQIHVDTMKVINDPIHGHIELHPLLVRIIDTPQFQRLRYIKQLGGGYYVFPGASHNRFEHSLGVGYLAGCLVHALGEKQPELQISERDVLCVQIAGLCHDLGHGPFSHMFDGRFIPLARPEVKWTHEQGSVMMFEHLINSNGIKPVMEQYGLIPEEDICFIKEQIVGPLESPVEDSLWPYKGRPENKSFLYEIVSNKRNGIDVDKWDYFARDCHHLGIQNNFDYKRFIKFARVCEVDNELRICARDKEVGNLYDMFHTRNSLHRRAYQHKVGNIIDTMITDAFLKADDYIEITGAGGKKYRISTAIDDMEAYTKLTDNIFLEILYSTDPKLKDAREILKQIEYRNLFKYVGETQPTGQIKIKREDYESLPKEVASAKPKVLLDVKLKAEDFIVDVINMDYGMQEKNPIDHVSFYCKTAPNRAIRITKNQVSQLLPEKFAEQLIRVYCKKVDRKSLYAARQYFVQWCADRNFTKPQDGDVIAPLITPQKKEWNDTSVQNPTRLREASKSRVQLFKDDPM"
+)
+
+
+from Bio.Blast import NCBIXML
+with open("blast_result.xml")as b:
+        blast_record=NCBIXML.read(b)
+        print(len(blast_record.alignments))
+        print("total hit: ",len(blast_record.alignments)) 
+for alignment in blast_record.alignments[:10]:
+        print("Title : ",alignment.title)
+        print("length of hit : ",alignment.length)
+        print("----"*100)
+
+
+        for alignment in
+         blast_record.alignments[:50]:
+                for hsp in alignment.hsps:
+                     print("title : ",alignment.title)
+                     print("E value : ",hsp.expect)
+                     print("identities : ",
+                     hsp.identities)
+                     percent_identity= (hsp.identities/hsp.align_length)*100
+                     print( percent_identity)
+                     print("   "*40)
+
+
+
+
+        

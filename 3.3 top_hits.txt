@@ -1,0 +1,28 @@
+This top hit was selected as the best match based on highest % identity and lowest E-value.
+
+ Top Hit Accession: NP_001350662
+ Gene:SAMHD1
+ Protein name: Deoxynucleoside triphosphate triphosphohydrolase SAMHD1
+ E value :  0.0
+ Identities : 582
+ Identity% :100.0
+
+
+functional Annotation:
+SAMHD1 is a deoxynucloeside triphosphate triphosphohydrolase involved in regulating 
+intracellular dNTP levels and innate immune response.
+It restricts viral relication during the early stages of infection.
+Does by lowering intracellular dNTPlevels,thereby inhinbiting viral dna synthesis.
+this antivairal activity has been observed in dendritic cells,macgrophages,and 
+certain melanoma cells.
+
+Notes:
+-Top hit NP_001350662 selected based on 100% identity over 582/626 residues.
+-Additinals hits with > 90% identitywew checked for conformation.
+-functional Annotationis based on reviwed UniPort entry.
+
+Other High-identity
+Accession             Identity%              E-value
+NP_056289.2           99.84025559105432        0.0
+AAF32407.1            99.52076677316293        0.0
+AAH36450.1            99.52076677316293        0.0
