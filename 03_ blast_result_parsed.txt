@@ -39,6 +39,8 @@ for alignment in blast_record.alignments[:10]:
                 for hsp in alignment.hsps:
                      print("title : ",alignment.title)
                      print("E value : ",hsp.expect)
+ Calculate percent identity of alignment
+ Formula: (Identities / Alignment length) × 100
                      print("identities : ",
                      hsp.identities)
                      percent_identity= (hsp.identities/hsp.align_length)*100
@@ -49,6 +51,7 @@ for alignment in blast_record.alignments[:10]:
 
 
         
+
 
 
 
