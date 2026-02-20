@@ -1,3 +1,12 @@
+ ------------------------------------------------------------
+ Project: Functional Annotation of Unknown Protein
+ Step: Parsing BLAST XML results using BioPython
+ Author: Akshitha Kiran
+ Description: This script reads BLAST XML output and extracts
+              top hits, alignment length, E-value, and
+              percent identity.
+ ------------------------------------------------------------
+
 import ssl
 ssl._create_default_https_context=ssl._create_unverified_context
 
@@ -36,3 +45,4 @@ for alignment in blast_record.alignments[:10]:
 
 
         
+
