@@ -1,42 +1,44 @@
 # Bioinformatics_blast_project
 Title: 
- In-silico Identification and Functional Characterization of a unknown Protein Using Sequence Analysis and Homology-Based Annotation.
+
+     In-silico Identification and Functional Characterization of a unknown Protein Using Sequence Analysis and Homology-Based Annotation.
 
 Objective:
-To predict the biological function of an unknown protein (Accession:Q9Y3Z3) by analyzing sequence similarity, BLAST hits, and functional annotation.
+
+    To predict the biological function of an unknown protein (Accession:Q9Y3Z3) by analyzing sequence similarity, BLAST hits, and functional annotation.
 
 Research Question
 
-When an unknown biological sequence is taken, how can computational tools be used 
+   When an unknown biological sequence is taken, how can computational tools be used 
 to predict its similarity with other sequences and infer its potential biological function?
   
 Tools used:
 
 1.UniProt Database
 
- To retrieve the Hypothetical proetin and
+        To retrieve the Hypothetical proetin and
  To retrieve functional annotation for top hits and high-identity homologs.
  
 2.FASTA Sequence Files
 
-Input file: unknown_protein.fasta containing your unknown protein sequence (Q9Y3Z3).
+       Input file: unknown_protein.fasta containing your unknown protein sequence (Q9Y3Z3).
 
 3.Biopython (Python library)
 
-To parse BLAST XML results.
+      To parse BLAST XML results.
 
 4.NCBI BLAST
 
-To perform sequence similarity search and find homologous proteins.
+     To perform sequence similarity search and find homologous proteins.
 
 5.Python 3.11
 
-Used to run scripts for parsing BLAST results, filtering hits, and summarizing top hits.
+      Used to run scripts for parsing BLAST results, filtering hits, and summarizing top hits.
 Output downloaded in XML format for parsing.
 
 6.VS Code 
 
-For writing Python scripts, organizing folders, and documenting results.
+    For writing Python scripts, organizing folders, and documenting results.
 
 
 Pipeline / Workflow:
@@ -54,16 +56,16 @@ Single continuous Pipeline
 Methodology:
 
 1.Sequence Retrieval
-The unknow protein sequence(Q9Y3Z3)from human Immunodeficiency virus (hiv),
+      The unknow protein sequence(Q9Y3Z3)from human Immunodeficiency virus (hiv),
  was retrived from UniPort databasein fasta formate.
 
 
 2.Sequence Quality Analysis
- The sequence Qualityis checked for any invalid amino acids,and length using Biopython
+     The sequence Qualityis checked for any invalid amino acids,and length using Biopython
 
 
 3.Sequence filtering and Validation
-Sequence filtering is made to remove very short and low Quality aminoacid sequences.
+     Sequence filtering is made to remove very short and low Quality aminoacid sequences.
 It ensures no duplicates or invalid sequences were included.Unknown protein(Q9Y3Z3) is checked and validated .
 
 
