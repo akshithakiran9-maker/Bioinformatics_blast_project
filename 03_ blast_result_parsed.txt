@@ -31,6 +31,8 @@ for alignment in blast_record.alignments[:10]:
         print("length of hit : ",alignment.length)
         print("----"*100)
 
+ Each alignment may contain multiple HSPs
+(High Scoring Segment Pairs)
 
         for alignment in
          blast_record.alignments[:50]:
@@ -47,5 +49,6 @@ for alignment in blast_record.alignments[:10]:
 
 
         
+
 
 
