@@ -1,10 +1,9 @@
 # Bioinformatics_blast_project
-Insilico functional annotation of an unknown protein sequence using Blast and BiopythonProject Title: 
+Title: 
  In-silico Identification and Functional Characterization of a unknown Protein Using Sequence Analysis and Homology-Based Annotation.
 
 Objective:
-To predict the biological function of an unknown protein (Accession:Q9Y3Z3) from Human Immunodeficiency Virus (HIV) by
- analyzing sequence similarity, BLAST hits, and functional annotation.
+To predict the biological function of an unknown protein (Accession:Q9Y3Z3) by analyzing sequence similarity, BLAST hits, and functional annotation.
 
 Research Question:
 When an unknown biological sequence is taken, how can computational tools be used 
@@ -82,4 +81,6 @@ Top Hit Accession: NP_001350662
  E value :  0.0
  Identities : 582
  Identity% :100.0
+This predicted function suggests that the unknown protein(Q9Y3Z3) likely plays a critical role in controlling viral replication and regulating intracellular dNTP levels, similar to the activity observed in SAMHD1 and related proteins.
+
 
