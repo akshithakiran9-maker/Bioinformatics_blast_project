@@ -1,11 +1,11 @@
 # Bioinformatics_blast_project
 Title: 
 
-     In-silico Identification and Functional Characterization of a unknown Protein Using Sequence Analysis and Homology-Based Annotation.
+   In-silico Identification and Functional Characterization of a unknown Protein Using Sequence Analysis and Homology-Based Annotation.
 
 Objective:
 
-    To predict the biological function of an unknown protein (Accession:Q9Y3Z3) by analyzing sequence similarity, BLAST hits, and functional annotation.
+  To predict the biological function of an unknown protein (Accession:Q9Y3Z3) by analyzing sequence similarity, BLAST hits, and functional annotation.
 
 Research Question
 
@@ -21,7 +21,7 @@ Tools used:
  
 2.FASTA Sequence Files
 
-    Input file: unknown_protein.fasta containing your unknown protein sequence (Q9Y3Z3).
+  Input file: unknown_protein.fasta containing your unknown protein sequence (Q9Y3Z3).
 
 3.Biopython (Python library)
 
