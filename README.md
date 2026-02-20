@@ -16,29 +16,29 @@ Tools used:
 
 1.UniProt Database
 
-        To retrieve the Hypothetical proetin and
+ To retrieve the Hypothetical proetin and
  To retrieve functional annotation for top hits and high-identity homologs.
  
 2.FASTA Sequence Files
 
-       Input file: unknown_protein.fasta containing your unknown protein sequence (Q9Y3Z3).
+    Input file: unknown_protein.fasta containing your unknown protein sequence (Q9Y3Z3).
 
 3.Biopython (Python library)
 
-      To parse BLAST XML results.
+  To parse BLAST XML results.
 
 4.NCBI BLAST
 
-     To perform sequence similarity search and find homologous proteins.
+  To perform sequence similarity search and find homologous proteins.
 
 5.Python 3.11
 
-      Used to run scripts for parsing BLAST results, filtering hits, and summarizing top hits.
+  Used to run scripts for parsing BLAST results, filtering hits, and summarizing top hits.
 Output downloaded in XML format for parsing.
 
 6.VS Code 
 
-    For writing Python scripts, organizing folders, and documenting results.
+ For writing Python scripts, organizing folders, and documenting results.
 
 
 Pipeline / Workflow:
@@ -123,14 +123,6 @@ Notes:
 -Additinals hits with > 90% identitywew checked for conformation.
 -functional Annotationis based on reviwed UniPort entry.
 
-Accession                                  Identity%                                E-value
-
-NP_056289.2                               99.84025559105432                         0.0 
-
-AAF32407.1                                 99.52076677316293                        0.0
-
-AAH36450.1                                99.52076677316293                         0.0
-       
 Biological Interpretation:
 
 Based on the BLAST analysis and functional annotation of the top hit (NP_001350662, SAMHD1),
@@ -145,8 +137,8 @@ This predicted function suggests that the unknown protein(Q9Y3Z3) likely plays a
 
 Conclusion :
 
-The unknow protein sequence(Q9Y3Z3) was analysed using computationaltools and Homology-based functional annotation.
-Blast analysis identified NP_001350662 as top hit with 100% identity and 0.0 E-value.Based on these analysis the unknow
-protein is predicted to regulate intracellular dNTP levels and restrict viral replication by inhibiting viral dna synthesis,
+The unknow protein sequence(Q9Y3Z3) was analysed using computational tools and Homology-based functional annotation.
+Blast analysis was identified NP_001350662 as top hit with 100% identity and 0.0 E-value.Based on these analysis the unknown
+protein is predicted to regulate intracellular dNTP levels and restrict viral replication by inhibiting viral dna synthesis
 similar to SAMHD1.
      
