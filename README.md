@@ -74,4 +74,12 @@ It ensures no duplicates or invalid sequences were included.Unknown protein(Q9Y3
 8. Biological Interpretation:
    - Predicted the likely function of the unknown protein based on top hit and homologous sequences.
    - Documented top hit accession, identity, functional annotation, and notes in the top_hit folder.
+Result:
+This top hit was selected as the best match based on highest % identity and lowest E-value.
+Top Hit Accession: NP_001350662
+ Gene:SAMHD1
+ Protein name: Deoxynucleoside triphosphate triphosphohydrolase SAMHD1
+ E value :  0.0
+ Identities : 582
+ Identity% :100.0
 
