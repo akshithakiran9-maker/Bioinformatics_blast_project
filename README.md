@@ -57,11 +57,11 @@ Methodology:
 
 1.Sequence Retrieval
       The unknow protein sequence(Q9Y3Z3)from human Immunodeficiency virus (hiv),
- was retrived from UniPort databasein fasta formate.
+ was retrived from UniPort databasein fasta format.
 
 
 2.Sequence Quality Analysis
-     The sequence Qualityis checked for any invalid amino acids,and length using Biopython
+     The sequence Quality is checked for any invalid amino acids,and length using Biopython.
 
 
 3.Sequence filtering and Validation
